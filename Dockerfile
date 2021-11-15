@@ -1,3 +1,3 @@
-FROM hub.nstda.or.th/eas/nginx-php-fpm-alpine:7.3.11
+FROM al1605/php:7.3.11-alpine
 
 COPY index.php /var/www/html/
